@@ -88,20 +88,26 @@
                         <div class="card shadow mb-4">
                             <!-- Card Header - Dropdown -->
                             <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                <h6 class="m-0 font-weight-bold text-primary">Información</h6>
+                                <h6 class="m-0 font-weight-bold text-primary">Ejercicio 1</h6>
                             </div>
                             <!-- Card Body -->
+                            <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-5 my-2 my-md-0 mw-100 navbar-search">
+
+                                
                             <div class="card-body">
-                                <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-5 my-2 my-md-0 mw-100 navbar-search">
                                     <div class="input-group">
                                         <div class="section-title mb-4">
-                                            <h1>Deber 1 de PHP</h1>
-                                            <h2>Diakov Artem y Rosero Gabriela</h2>
+                                            <h2>Tablas de multiplicar</h2>
                                         </div>
-                                        <h2></h2>
+                                        
                                     </div>
-
-                                </form>
+                                    <?php 
+    $num1 = $_POST["num1"]; 
+for ($x = 1; $x <= 10; $x++) {
+    $res = $num1 * $x;
+  echo " $x x $num1 = $res <br>";
+}
+?> </form>
                             </div>
                         </div>
                     </div>

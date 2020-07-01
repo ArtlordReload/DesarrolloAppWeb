@@ -12,8 +12,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-:root {
-    --blue: #f0c24b;
+ :root {
+    --blue: #122769;
     --indigo: #6610f2;
     --purple: #6f42c1;
     --pink: #e83e8c;
@@ -26,7 +26,7 @@
     --white: #fff;
     --gray: #858796;
     --gray-dark: #5a5c69;
-    --primary: #f0c24b;
+    --primary: #122769;
     --secondary: #858796;
     --success: #1cc88a;
     --info: #36b9cc;
@@ -1976,7 +1976,7 @@ pre code {
     font-weight: 400;
     line-height: 1.5;
     color: #6e707e;
-    background-color: #fff;
+    background-color: rgb(172, 188, 209);
     background-clip: padding-box;
     border: 1px solid #d1d3e2;
     border-radius: .35rem;
@@ -6794,7 +6794,7 @@ button.bg-danger:hover {
 }
 
 .bg-light {
-    background-color: #f8f9fc!important
+    background-color: #d2daf3e8!important
 }
 
 a.bg-light:focus,
@@ -8188,7 +8188,7 @@ button.bg-dark:hover {
 }
 
 .p-3 {
-    padding: 1rem!important
+    padding: 0.5rem!important
 }
 
 .pt-3,
@@ -9920,7 +9920,7 @@ button.bg-dark:hover {
 }
 
 .text-primary {
-    color: #f0c24b!important
+    color: #20297e!important
 }
 
 a.text-primary:focus,
@@ -10987,29 +10987,29 @@ a:focus {
 }
 
 .sidebar-dark .sidebar-brand {
-    color: #f6c23e
+    color: #122769
 }
 
 .sidebar-dark hr.sidebar-divider {
-    border-top: 1px solid #f6c23e
+    border-top: 1px solid #122769
 }
 
 .sidebar-dark .sidebar-heading {
-    color: #f6c23e
+    color: #122769
 }
 
 .sidebar-dark .nav-item .nav-link {
-    color: #f6c23e
+    color: #122769
 }
 
 .sidebar-dark .nav-item .nav-link i {
-    color: #f6c23e
+    color: #122769
 }
 
 .sidebar-dark .nav-item .nav-link:active,
 .sidebar-dark .nav-item .nav-link:focus,
 .sidebar-dark .nav-item .nav-link:hover {
-    color: #f6c23e
+    color: #122769
 }
 
 .sidebar-dark .nav-item .nav-link:active i,
