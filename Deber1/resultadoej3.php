@@ -88,25 +88,27 @@
                         <div class="card shadow mb-4">
                             <!-- Card Header - Dropdown -->
                             <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                <h6 class="m-0 font-weight-bold text-primary">Ejercicio 1</h6>
+                                <h6 class="m-0 font-weight-bold text-primary">Ejercicio 3</h6>
                             </div>
                             <!-- Card Body -->
+                            <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-5 my-2 my-md-0 mw-100 navbar-search">
+
+                                
                             <div class="card-body">
-                                <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-5 my-2 my-md-0 mw-100 navbar-search">
                                     <div class="input-group">
                                         <div class="section-title mb-4">
-                                            <h2>Tablas de multiplicar</h2>
+                                            <h2>La edad es: </h2>
                                         </div>
-                                        <h2></h2>
+                                        
                                     </div>
-                                </form>
-                                <div class="input-group">
-                                    <form name="forma" method="post" action="resultadoej1.php">
-                                        <label for="num1">Número:</label>
-                                        <input type="number" class="form-control bg-light border-0 small" name="num1" min="1" max="10" required><br>
-                                        <input class="btn btn-danger text-white text-uppercase" type="submit" value="Generar Tabla">
-                                    </form>
-                                </div>
+                                    <?php 
+
+$nac = new DateTime($_POST["fecha"]);
+$actual = new DateTime(date("d/m/Y"));
+$diferencia = $actual->diff($nac);
+
+echo "La persona tiene ".$diferencia->format("%y")." años";
+?> </form>
                             </div>
                         </div>
                     </div>
